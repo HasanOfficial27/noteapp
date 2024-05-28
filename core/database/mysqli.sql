@@ -1,0 +1,5 @@
+-- Create database
+CREATE DATABASE note;
+
+-- Create table
+CREATE TABLE note (note_id BIGINT NOT NULL AUTO_INCREMENT, note_title TEXT NULL, note_value LONGTEXT NULL, note_date DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP);
